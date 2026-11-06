@@ -1,0 +1,188 @@
+.helmet {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.hiddenVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 320px;
+  height: 240px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.page {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: min(1100px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  pointer-events: none;
+}
+
+.header,
+.side,
+.button,
+.ghostButton,
+.card {
+  pointer-events: auto;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  max-width: 38rem;
+  color: color-mix(in srgb, currentColor 62%, transparent);
+  font-size: 0.95rem;
+}
+
+.stage {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: min(340px, 92vw);
+}
+
+.card {
+  min-height: 168px;
+  border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+  border-radius: 18px;
+  background: color-mix(in srgb, Canvas 78%, transparent);
+  padding: 16px 18px;
+  backdrop-filter: blur(10px);
+}
+
+.label {
+  margin: 0;
+  color: color-mix(in srgb, currentColor 62%, transparent);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.expression {
+  margin: 10px 0 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.gazeText {
+  margin: 10px 0 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.status {
+  margin: 10px 0 0;
+  color: #16a34a;
+  font-size: 0.9rem;
+}
+
+.error {
+  margin: 10px 0 0;
+  color: #dc2626;
+  font-size: 0.9rem;
+}
+
+.button,
+.ghostButton {
+  border-radius: 999px;
+  padding: 10px 18px;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button {
+  border: 0;
+  background: #171717;
+  color: white;
+}
+
+.button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.stop {
+  background: #dc2626;
+}
+
+.ghostButton {
+  align-self: flex-start;
+  margin-top: 16px;
+  border: 1px solid color-mix(in srgb, currentColor 28%, transparent);
+  background: transparent;
+  color: inherit;
+}
+
+.active {
+  outline: 3px solid #38bdf8;
+  outline-offset: 3px;
+}
+
+.centerCue {
+  position: fixed;
+  top: 18%;
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.centerLabel {
+  border-radius: 999px;
+  background: rgba(10, 10, 10, 0.82);
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 760px) {
+  .header,
+  .stage {
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .stage {
+    align-items: flex-end;
+  }
+}
