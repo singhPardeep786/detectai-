@@ -1,0 +1,14 @@
+{"timestamp":"00:00:00.414","source":"Server","level":"LOG","message":"- Cache Components enabled"}
+{"timestamp":"00:00:00.414","source":"Server","level":"LOG","message":"- Partial Prefetching enabled"}
+{"timestamp":"00:00:00.414","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:15.581","source":"Browser","level":"WARN","message":"[locator-js] React instance (react-server-dom-turbopack v19.3.0-canary-278794d7-20261002) is not supported"}
+{"timestamp":"00:00:15.594","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33m[locator-js] React instance (react-server-dom-turbopack v19.3.0-canary-278794d7-20261002) is not supported\\u001b[39m\" \"\\u001b[2m(chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)\\u001b[22m\""}
+{"timestamp":"00:00:15.594","source":"Browser","level":"WARN","message":"[locator-js] React instance (react-dom v19.3.0-canary-278794d7-20261002) is not supported"}
+{"timestamp":"00:00:15.598","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33m[locator-js] React instance (react-dom v19.3.0-canary-278794d7-20261002) is not supported\\u001b[39m\" \"\\u001b[2m(chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)\\u001b[22m\""}
+{"timestamp":"00:00:16.528","source":"Browser","level":"WARN","message":"[locatorjs]: ok"}
+{"timestamp":"00:00:16.529","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33m[locatorjs]: ok\\u001b[39m\" \"\\u001b[2m(chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)\\u001b[22m\""}
+{"timestamp":"00:00:40.966","source":"Browser","level":"LOG","message":"Graph successfully started running."}
+{"timestamp":"00:02:07.785","source":"Browser","level":"LOG","message":"Graph finished closing successfully."}
+{"timestamp":"00:02:31.832","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"00:02:33.031","source":"Server","level":"LOG","message":"✓ Compiled in 2ms"}
+{"timestamp":"00:02:34.596","source":"Server","level":"LOG","message":"✓ Compiled in 1ms"}

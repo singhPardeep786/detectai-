@@ -1,0 +1,186 @@
+/* [project]/src/features/expression/components/FaceExpressions.module.css [app-client] (css) */
+.FaceExpressions-module__8w0Rhq__helmet {
+  z-index: 0;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  inset: 0;
+}
+
+.FaceExpressions-module__8w0Rhq__hiddenVideo {
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  width: 320px;
+  height: 240px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.FaceExpressions-module__8w0Rhq__page {
+  z-index: 1;
+  box-sizing: border-box;
+  pointer-events: none;
+  flex-direction: column;
+  gap: 16px;
+  width: min(1100px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  position: relative;
+}
+
+.FaceExpressions-module__8w0Rhq__header, .FaceExpressions-module__8w0Rhq__side, .FaceExpressions-module__8w0Rhq__button, .FaceExpressions-module__8w0Rhq__ghostButton, .FaceExpressions-module__8w0Rhq__card {
+  pointer-events: auto;
+}
+
+.FaceExpressions-module__8w0Rhq__header {
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  display: flex;
+}
+
+.FaceExpressions-module__8w0Rhq__title {
+  margin: 0;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.FaceExpressions-module__8w0Rhq__subtitle {
+  max-width: 38rem;
+  color: color-mix(in srgb, currentColor 62%, transparent);
+  margin: 6px 0 0;
+  font-size: .95rem;
+}
+
+.FaceExpressions-module__8w0Rhq__stage {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.FaceExpressions-module__8w0Rhq__side {
+  flex-direction: column;
+  gap: 28px;
+  width: min(340px, 92vw);
+  display: flex;
+}
+
+.FaceExpressions-module__8w0Rhq__card {
+  border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+  background: color-mix(in srgb, Canvas 78%, transparent);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+  min-height: 168px;
+  padding: 16px 18px;
+}
+
+.FaceExpressions-module__8w0Rhq__label {
+  color: color-mix(in srgb, currentColor 62%, transparent);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: .85rem;
+}
+
+.FaceExpressions-module__8w0Rhq__expression {
+  margin: 10px 0 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.FaceExpressions-module__8w0Rhq__gazeText {
+  margin: 10px 0 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.FaceExpressions-module__8w0Rhq__status {
+  color: #16a34a;
+  margin: 10px 0 0;
+  font-size: .9rem;
+}
+
+.FaceExpressions-module__8w0Rhq__error {
+  color: #dc2626;
+  margin: 10px 0 0;
+  font-size: .9rem;
+}
+
+.FaceExpressions-module__8w0Rhq__button, .FaceExpressions-module__8w0Rhq__ghostButton {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: .95rem;
+  font-weight: 700;
+}
+
+.FaceExpressions-module__8w0Rhq__button {
+  color: #fff;
+  background: #171717;
+  border: 0;
+}
+
+.FaceExpressions-module__8w0Rhq__button:disabled {
+  cursor: wait;
+  opacity: .65;
+}
+
+.FaceExpressions-module__8w0Rhq__stop {
+  background: #dc2626;
+}
+
+.FaceExpressions-module__8w0Rhq__ghostButton {
+  border: 1px solid color-mix(in srgb, currentColor 28%, transparent);
+  color: inherit;
+  background: none;
+  align-self: flex-start;
+  margin-top: 16px;
+}
+
+.FaceExpressions-module__8w0Rhq__active {
+  outline-offset: 3px;
+  outline: 3px solid #38bdf8;
+}
+
+.FaceExpressions-module__8w0Rhq__centerCue {
+  z-index: 2;
+  pointer-events: none;
+  position: fixed;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.FaceExpressions-module__8w0Rhq__centerLabel {
+  color: #fff;
+  background: #0a0a0ad1;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: .9rem;
+}
+
+@media (max-width: 760px) {
+  .FaceExpressions-module__8w0Rhq__header, .FaceExpressions-module__8w0Rhq__stage {
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  .FaceExpressions-module__8w0Rhq__header {
+    flex-direction: column;
+  }
+
+  .FaceExpressions-module__8w0Rhq__stage {
+    align-items: flex-end;
+  }
+}
+
+/*# sourceMappingURL=src_features_expression_components_FaceExpressions_module_0dg9tzdkky1yy.css.map*/
